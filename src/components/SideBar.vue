@@ -23,153 +23,234 @@
           darkMode ? 'bg-gray-700 text-gray-300' : 'bg-white text-gray-500'
         "
       >
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
-              /></svg
-          ></span>
-          <span>Dashboard</span>
-        </p>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+                /></svg
+            ></span>
+            <span>Dashboard</span>
+          </p>
+        </div>
 
         <br />
         <div class="mt-3 mb-3"><p class="opacity-50">Test</p></div>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z" />
-              <path
-                fill-rule="evenodd"
-                d="M3 8h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V8zm5 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              /></svg
-          ></span>
-          <span>Items</span>
-        </p>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
-                clip-rule="evenodd"
-              /></svg
-          ></span>
-          <span>Exams</span>
-        </p>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M3 8h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V8zm5 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                /></svg
+            ></span>
+            <span>Items</span>
+          </p>
+        </div>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                  clip-rule="evenodd"
+                /></svg
+            ></span>
+            <span>Exams</span>
+          </p>
+        </div>
         <br />
         <div class="mt-3 mb-3"><p class="opacity-50">Organisation</p></div>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"
-              /></svg
-          ></span>
-          <span>Courses</span>
-        </p>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"
-              /></svg
-          ></span>
-          <span>Students</span>
-        </p>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"
+                /></svg
+            ></span>
+            <span>Courses</span>
+          </p>
+        </div>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"
+                /></svg
+            ></span>
+            <span>Students</span>
+          </p>
+        </div>
         <br />
         <div class="mt-3 mb-3"><p class="opacity-50">Manage</p></div>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                clip-rule="evenodd"
-              /></svg
-          ></span>
-          <span>Users</span>
-        </p>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
-                clip-rule="evenodd"
-              /></svg
-          ></span>
-          <span>Setting</span>
-        </p>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                  clip-rule="evenodd"
+                /></svg
+            ></span>
+            <span>Users</span>
+          </p>
+        </div>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                  clip-rule="evenodd"
+                /></svg
+            ></span>
+            <span>Setting</span>
+          </p>
+        </div>
 
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z"
-                clip-rule="evenodd"
-              /></svg
-          ></span>
-          <span>Message</span>
-        </p>
-        <p class="font-roboto flex items-center space-x-3 text-2xl mt-3">
-          <span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"
-              /></svg
-          ></span>
-          <span>Status</span>
-        </p>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z"
+                  clip-rule="evenodd"
+                /></svg
+            ></span>
+            <span>Message</span>
+          </p>
+        </div>
+        <div
+          class="w-full"
+          :class="
+            darkMode
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+          "
+        >
+          <p class="font-roboto flex items-center space-x-3 text-2xl">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                /></svg
+            ></span>
+            <span>Status</span>
+          </p>
+        </div>
       </div>
     </div>
     <div class="h-28 flex w-11/12 m-auto justify-start">
