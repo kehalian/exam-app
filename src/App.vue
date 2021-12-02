@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <exam />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Exam from "@/Exam.vue";
+// import Exam from "@/Exam.vue";
 export default {
-  components: { Exam },
+  // components: { Exam },
 };
 </script>
 <style>
