@@ -1,9 +1,12 @@
 <template>
-  <div class="w-full bg-yellow-500 h-screen flex">
-    <div class="w-1/6 bg-pink-400">
+  <div
+    style="background-image: url(/img/background.jpg)"
+    class="w-full h-screen flex bg-cover bg-center"
+  >
+    <div class="w-1/6">
       <side-bar></side-bar>
     </div>
-    <div class="flex-grow bg-gray-200 flex flex-col">
+    <div class="flex-grow flex flex-col">
       <div>
         <nav-bar></nav-bar>
       </div>
