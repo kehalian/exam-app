@@ -9,7 +9,12 @@ module.exports = {
         play: 'Playfair Display',
         roboto: 'Roboto'
 
+      },
+      backgroundImage: {
+        'background': "url('/img/background.jpg')",
+
       }
+
     },
   },
   variants: {

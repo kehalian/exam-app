@@ -23,15 +23,16 @@
           darkMode ? 'bg-gray-700 text-gray-300' : 'bg-white text-gray-500'
         "
       >
-        <div
+        <router-link
+          to="/home"
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +46,7 @@
             ></span>
             <span>Dashboard</span>
           </p>
-        </div>
+        </router-link>
 
         <br />
         <div class="mt-3 mb-3"><p class="opacity-50">Test</p></div>
@@ -53,11 +54,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,11 +80,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -106,11 +107,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -129,11 +130,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -154,11 +155,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -179,11 +180,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -205,11 +206,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -230,11 +231,11 @@
           class="w-full"
           :class="
             darkMode
-              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 px-3 py-2 rounded-md'
-              : 'hover:bg-blue-300 hover:bg-opacity-50 px-3 py-2 rounded-md'
+              ? 'hover:bg-purple-600 hover:tex-white hover:opacity-100 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
+              : 'hover:bg-blue-300 hover:bg-opacity-50 cursor-pointer px-3 py-2 rounded-md'
           "
         >
-          <p class="font-roboto flex items-center space-x-3 text-2xl">
+          <p class="font-roboto flex items-center space-x-3 text-md">
             <span
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -306,6 +307,8 @@
   </div>
 </template>
 <script>
+import { EventBus } from "@/service/event-bus";
+
 export default {
   name: "SlideBar",
 
@@ -321,9 +324,7 @@ export default {
     handleToggleActive() {
       this.toggleActive = !this.toggleActive;
       this.darkMode = !this.darkMode;
-    },
-    changeTheme() {
-      this.darkMode = !this.darkMode;
+      EventBus.$emit("themeChange", this.darkMode);
     },
   },
 };
