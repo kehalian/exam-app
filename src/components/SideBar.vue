@@ -1,7 +1,16 @@
 <template>
   <div
-    class="w-full h-full flex flex-col"
-    :class="darkMode ? 'bg-gray-700 text-gray-300 opacity-15' : 'bg-white '"
+    class="
+      w-full
+      h-full
+      flex flex-col
+      border-r-2 border-gray-600 border-opacity-20
+    "
+    :class="
+      darkMode
+        ? 'bg-gray-700 text-gray-300 opacity-15'
+        : 'bg-black bg-opacity-60 '
+    "
   >
     <div class="w-11/12 m-auto mt-5 flex-grow">
       <p class="text-4xl font-lora flex items-center">
@@ -20,7 +29,9 @@
       <div
         class="w-full flex flex-col mt-5 text-left"
         :class="
-          darkMode ? 'bg-gray-700 text-gray-300' : 'bg-white text-gray-500'
+          darkMode
+            ? 'bg-gray-700 text-gray-300'
+            : 'bg-black bg-opacity-0 text-gray-200'
         "
       >
         <router-link
@@ -282,7 +293,15 @@
         >
           <!-- Switch -->
           <div
-            class="bg-white w-5 h-5 rounded-full shadow-md transform"
+            class="
+              bg-black bg-opacity-50
+              60
+              w-5
+              h-5
+              rounded-full
+              shadow-md
+              transform
+            "
             :class="{ 'translate-x-7': toggleActive }"
           ></div>
         </div>

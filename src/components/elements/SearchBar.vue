@@ -1,13 +1,36 @@
 <template>
   <div class="flex">
-    <div class="w-11/12 rounded-tl-lg rounded-bl-lg border-2">
+    <div
+      class="
+        w-full
+        rounded-tl-lg rounded-bl-lg
+        border-2 border-gray-600 border-r-0
+      "
+    >
       <input
-        class="w-full h-full outline-none p-1 px-3 rounded-tl-lg rounded-bl-lg"
+        class="
+          w-full
+          h-full
+          outline-none
+          p-1
+          px-3
+          rounded-tl-lg rounded-bl-lg
+          bg-black
+          font-lora
+          text-gray-400
+        "
         placeholder="Search Courses , items , Exams ...."
         type="text"
       />
     </div>
-    <div class="w-1/12 text-blue-400 bg-gray-300 rounded-tr-lg rounded-br-lg">
+    <div
+      class="
+        w-1/12
+        text-blue-400
+        border-gray-600 border-2
+        rounded-tr-lg rounded-br-lg
+      "
+    >
       <button class="p-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
