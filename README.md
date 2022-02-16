@@ -1,4 +1,7 @@
 # exam-app
+the project is for exam managment system for online exam preparation and grading system. on this repo you find the front end UI for admin dashboard
+#Home page Ui
+![](Design/Screenshot%20from%202022-02-16%2016-42-44.png)
 
 ## Project setup
 ```
@@ -22,3 +25,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
