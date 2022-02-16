@@ -61,7 +61,8 @@
 
         <br />
         <div class="mt-3 mb-3"><p class="opacity-50">Test</p></div>
-        <div
+        <router-link
+          to="/items"
           class="w-full"
           :class="
             darkMode
@@ -86,7 +87,7 @@
             ></span>
             <span>Items</span>
           </p>
-        </div>
+        </router-link>
         <div
           class="w-full"
           :class="
